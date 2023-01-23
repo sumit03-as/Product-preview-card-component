@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    background: hsl(30, 38%, 92%);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    margin: 118px 445px;
+    padding: 0 0;
+}
+
+.left img {
+    border-radius: 12px 0 0 12px;
+    height: 445px;
+}
+
+.right {
+
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 0 12px 12px 0;
+    height: 445px;
+    width: 287px;
+    padding: 0 12px;
+}
+
+#paragraph .para {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    padding: 4px 24px 4px 17px;
+    line-height: 1.6;
+}
+
+#paragraph p:first-of-type {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: hsl(228, 12%, 48%);
+    padding: 21px 0 8px 17px;
+    margin: 0;
+    letter-spacing: 5px;
+}
+
+#paragraph h1 {
+    font-family: 'Fraunces', serif;
+    color: hsl(212, 21%, 14%);
+    font-size: 33px;
+    line-height: 1;
+    padding: 8px 17px;
+    margin: 4px 0px;
+}
+
+#price {
+    display: flex;
+    align-items: center;
+}
+
+#price p:first-of-type {
+    font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
+    font-size: 30px;
+    margin: 0 0;
+    padding: 4px 20px 14px 20px;
+}
+
+#price p:last-of-type {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    padding-bottom: 6px;
+    text-decoration: line-through;
+}
+
+#button {
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0px;
+    margin: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: hsl(158, 36%, 37%);
+
+}
+
+#button button {
+    justify-content: center;
+    align-items: center;
+    background: none;
+    color: hsl(0, 0%, 100%);
+    border: none;
+}
